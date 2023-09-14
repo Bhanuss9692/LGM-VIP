@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Enrollment Form</title>
+    <link rel="stylesheet" href="RegistrationFrom.css">
+</head>
+<body>
+    <div id="main">
+        <div id="head">
+            <h3>Student Enrollment Form</h3>
+        </div>
+        <div id="left">
+            <form action="" onsubmit="now()">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Write your name" class="z" />
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="example@mail.com" class="z" />
+
+                <label for="url">Website</label>
+                <input type="url" id="url" placeholder="Add link" />
+
+                <label for="url2">Image link</label>
+                <input type="url" id="url2" placeholder="Add image link" />
+
+                <label for="gender">Gender</label>
+                <input type="radio" id="male" name="gender" value="Male" />
+                <label id="m" for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="Female" />
+                <label id="f" for="female">Female</label>
+
+                <label for="enroll">Enrollment Number</label>
+                <input type="text" placeholder="Enrollment No." id="enroll" />
+
+                <button id="red">Enroll student</button>
+                <button id="green">Clear</button>
+            </form>
+        </div>
+        <div id="divide"></div>
+        <div id="right">
+            <div class="card">
+                <div class="photo">
+                    <img src="C:\Users\bhanu\OneDrive\Desktop\passportsize.jpg" alt="Student Photo" />
+                </div>
+                <p class="a" id="a1">Name: S.S.Bhannu Prakash</p>
+                <p class="a" id="b2">Email: bhannuprakash24@gmail.com</p>
+                <p class="a" id="c3">Website: www.bhannu.com</p>
+                <p class="a" id="d4">Gender: Male</p>
+                <p class="a" id="e5">Enrollment No.: 20121A04K7</p>
+            </div>
+        </div>
+    </div>
+    <script src="RegistrationFrom.js"></script>
+</body>
+</html>
